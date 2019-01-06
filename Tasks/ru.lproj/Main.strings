@@ -1,0 +1,111 @@
+
+/* Class = "UILabel"; text = "ListTitle"; ObjectID = "1aP-6N-P1E"; */
+"1aP-6N-P1E.text" = "ListTitle";
+
+/* Class = "UITableViewController"; title = "Trash table"; ObjectID = "4cw-pD-ASe"; */
+"4cw-pD-ASe.title" = "Корзина";
+
+/* Class = "UILabel"; text = "0/0"; ObjectID = "5rW-il-4Jr"; */
+"5rW-il-4Jr.text" = "0/0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8fM-vR-EBJ"; */
+"8fM-vR-EBJ.text" = "Заголовок";
+
+/* Class = "UILabel"; text = "Setup due date"; ObjectID = "E0h-vk-PVc"; */
+"E0h-vk-PVc.text" = "Установка даты выполнения";
+
+/* Class = "UIViewController"; title = "Task detail description"; ObjectID = "Ebb-wK-q13"; */
+"Ebb-wK-q13.title" = "Описание задачи";
+
+/* Class = "UIBarButtonItem"; title = "Color"; ObjectID = "GNp-1V-dzn"; */
+"GNp-1V-dzn.title" = "Цвет";
+
+/* Class = "UILabel"; text = "Task title"; ObjectID = "HVe-OQ-i2v"; */
+"HVe-OQ-i2v.text" = "Заголовок задачи";
+
+/* Class = "UILabel"; text = "LIst label"; ObjectID = "JMS-Rw-szC"; */
+"JMS-Rw-szC.text" = "Заголовок списка";
+
+/* Class = "UILabel"; text = "TaskDescription"; ObjectID = "JkS-BH-fQn"; */
+"JkS-BH-fQn.text" = "TaskDescription";
+
+/* Class = "UITabBarItem"; title = "Trash"; ObjectID = "OPw-Wv-WEz"; */
+"OPw-Wv-WEz.title" = "Корзина";
+
+/* Class = "UILabel"; text = "Due time"; ObjectID = "Qrk-Tr-CFm"; */
+"Qrk-Tr-CFm.text" = "Время завершения";
+
+/* Class = "UITableViewController"; title = "Main"; ObjectID = "Rpd-Ku-LPt"; */
+"Rpd-Ku-LPt.title" = "Main";
+
+/* Class = "UILabel"; text = "ColorTitle"; ObjectID = "Sc9-cI-ilU"; */
+"Sc9-cI-ilU.text" = "ColorTitle";
+
+/* Class = "UILabel"; text = "TaskTitlle"; ObjectID = "WKp-gf-mzO"; */
+"WKp-gf-mzO.text" = "TaskTitlle";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "WZ2-Mg-yLR"; */
+"WZ2-Mg-yLR.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Preferred"; ObjectID = "agc-JS-P7f"; */
+"agc-JS-P7f.text" = "Основной";
+
+/* Class = "UILabel"; text = "TaskList"; ObjectID = "eM6-Dg-ngX"; */
+"eM6-Dg-ngX.text" = "TaskList";
+
+/* Class = "UINavigationItem"; title = "List detail"; ObjectID = "eUo-tF-tXR"; */
+"eUo-tF-tXR.title" = "Свойства списка";
+
+/* Class = "UITabBarItem"; title = "Lists"; ObjectID = "fvb-w2-hZk"; */
+"fvb-w2-hZk.title" = "Списки";
+
+/* Class = "UISegmentedControl"; gIE-U9-FlL.segmentTitles[0] = "--"; ObjectID = "gIE-U9-FlL"; */
+"gIE-U9-FlL.segmentTitles[0]" = "--";
+
+/* Class = "UISegmentedControl"; gIE-U9-FlL.segmentTitles[1] = "!"; ObjectID = "gIE-U9-FlL"; */
+"gIE-U9-FlL.segmentTitles[1]" = "!";
+
+/* Class = "UISegmentedControl"; gIE-U9-FlL.segmentTitles[2] = "!!"; ObjectID = "gIE-U9-FlL"; */
+"gIE-U9-FlL.segmentTitles[2]" = "!!";
+
+/* Class = "UISegmentedControl"; gIE-U9-FlL.segmentTitles[3] = "!!!"; ObjectID = "gIE-U9-FlL"; */
+"gIE-U9-FlL.segmentTitles[3]" = "!!!";
+
+/* Class = "UITableViewController"; title = "Lists"; ObjectID = "hB0-yr-SQF"; */
+"hB0-yr-SQF.title" = "Списки";
+
+/* Class = "UINavigationItem"; title = "Lists"; ObjectID = "j7c-Xv-EOf"; */
+"j7c-Xv-EOf.title" = "Списки";
+
+/* Class = "UILabel"; text = "TaskDueDate"; ObjectID = "lcG-Sx-bO2"; */
+"lcG-Sx-bO2.text" = "Дата выполнения";
+
+/* Class = "UILabel"; text = "ListTitle"; ObjectID = "lma-Pb-Heh"; */
+"lma-Pb-Heh.text" = "Заголовок списка";
+
+/* Class = "UILabel"; text = "Due date"; ObjectID = "n8d-jk-Ahr"; */
+"n8d-jk-Ahr.text" = "Дата выполнения";
+
+/* Class = "UILabel"; text = "LIst label"; ObjectID = "nQq-Sa-PFz"; */
+"nQq-Sa-PFz.text" = "Заголовок списка";
+
+/* Class = "UINavigationItem"; title = "Tasks"; ObjectID = "oh1-h7-dYS"; */
+"oh1-h7-dYS.title" = "Задачи";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "pRL-Ej-fRs"; */
+"pRL-Ej-fRs.text" = "--";
+
+/* Class = "UITabBarItem"; title = "Tasks"; ObjectID = "tFR-Uj-i3R"; */
+"tFR-Uj-i3R.title" = "Задачи";
+
+/* Class = "UITableViewController"; title = "Task detail"; ObjectID = "tIg-IQ-zMp"; */
+"tIg-IQ-zMp.title" = "Свойства задачи";
+
+/* Class = "UITableViewController"; title = "List detail"; ObjectID = "teh-GA-mqt"; */
+"teh-GA-mqt.title" = "Свойства списка";
+
+/* Class = "UILabel"; text = "- -"; ObjectID = "yUX-nw-i0L"; */
+"yUX-nw-i0L.text" = "- -";
+
+/* Class = "UILabel"; text = "Task title"; ObjectID = "zuf-GU-8bS"; */
+"zuf-GU-8bS.text" = "Заголовок задачи";

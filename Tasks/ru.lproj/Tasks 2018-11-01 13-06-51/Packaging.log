@@ -1,0 +1,532 @@
+2018-11-01 10:06:17 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fdb5fee87c0; archive(resolved)='<IDEArchive: 0x7fdb735342b0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fdb5fee87c0; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fdb606cc690; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb5d6e7140; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb606c0a10; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb5d8cd990; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb6061cc20; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb7230b810; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb74a34210; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb5e1e6b10; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fdb73bb6410; teamID='54L37Y4QC4', teamName='Yaroslav Abaturov', teamType='Individual', username='yarizzer@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fdb7398fd20; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='(null)'>
+	<IDEDistributionContext: 0x7fdb5dbf8840; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fdb76866270>', team='(null)'>
+	<IDEDistributionContext: 0x7fdb5fe5ccb0; archive = '<IDEArchive: 0x7fdb735342b0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fdb5fee87c0>
+2018-11-01 10:06:17 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-11-01 10:06:17 +0000  Processing step: IDEDistributionCopyItemStep
+2018-11-01 10:06:17 +0000  Running /usr/bin/ditto '-V' '/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app'
+2018-11-01 10:06:17 +0000  >>> Copying /Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app 
+2018-11-01 10:06:17 +0000  
+2018-11-01 10:06:17 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-11-01 10:06:17 +0000  14468 bytes for ./_CodeSignature/CodeResources
+2018-11-01 10:06:17 +0000  copying file ./Tasks ... 
+2018-11-01 10:06:17 +0000  3113920 bytes for ./Tasks
+2018-11-01 10:06:18 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-11-01 10:06:18 +0000  15580 bytes for ./AppIcon60x60@2x.png
+2018-11-01 10:06:18 +0000  copying file ./fr-CA.lproj/Main.strings ... 
+2018-11-01 10:06:18 +0000  5138 bytes for ./fr-CA.lproj/Main.strings
+2018-11-01 10:06:18 +0000  copying file ./Tasks.momd/Tasks.omo ... 
+2018-11-01 10:06:18 +0000  6848 bytes for ./Tasks.momd/Tasks.omo
+2018-11-01 10:06:18 +0000  copying file ./Tasks.momd/VersionInfo.plist ... 
+2018-11-01 10:06:18 +0000  235 bytes for ./Tasks.momd/VersionInfo.plist
+copying file ./Tasks.momd/Tasks.mom ... 
+2018-11-01 10:06:18 +0000  3738 bytes for ./Tasks.momd/Tasks.mom
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/ng6-Kd-jUf-view-x5V-t5-4Cl.nib ... 
+2018-11-01 10:06:18 +0000  6721 bytes for ./Base.lproj/Main.storyboardc/ng6-Kd-jUf-view-x5V-t5-4Cl.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/UITabBarController-CrO-jg-ebP.nib ... 
+2018-11-01 10:06:18 +0000  5192 bytes for ./Base.lproj/Main.storyboardc/UITabBarController-CrO-jg-ebP.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/7aN-h4-6sd-view-DWK-e3-s6k.nib ... 
+2018-11-01 10:06:18 +0000  4484 bytes for ./Base.lproj/Main.storyboardc/7aN-h4-6sd-view-DWK-e3-s6k.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/tIg-IQ-zMp-view-SaZ-F0-92v.nib ... 
+2018-11-01 10:06:18 +0000  17814 bytes for ./Base.lproj/Main.storyboardc/tIg-IQ-zMp-view-SaZ-F0-92v.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/hB0-yr-SQF-view-A8P-Vq-NWh.nib ... 
+2018-11-01 10:06:18 +0000  7389 bytes for ./Base.lproj/Main.storyboardc/hB0-yr-SQF-view-A8P-Vq-NWh.nib
+copying file ./Base.lproj/Main.storyboardc/teh-GA-mqt-view-NhW-iB-3uO.nib ... 
+2018-11-01 10:06:18 +0000  5860 bytes for ./Base.lproj/Main.storyboardc/teh-GA-mqt-view-NhW-iB-3uO.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-7aN-h4-6sd.nib ... 
+2018-11-01 10:06:18 +0000  998 bytes for ./Base.lproj/Main.storyboardc/UIViewController-7aN-h4-6sd.nib
+copying file ./Base.lproj/Main.storyboardc/4cw-pD-ASe-view-b2T-og-VrR.nib ... 
+2018-11-01 10:06:18 +0000  7501 bytes for ./Base.lproj/Main.storyboardc/4cw-pD-ASe-view-b2T-og-VrR.nib
+copying file ./Base.lproj/Main.storyboardc/UICollectionViewController-vHj-lU-rHa.nib ... 
+2018-11-01 10:06:18 +0000  1841 bytes for ./Base.lproj/Main.storyboardc/UICollectionViewController-vHj-lU-rHa.nib
+copying file ./Base.lproj/Main.storyboardc/Rpd-Ku-LPt-view-O7d-3k-0xR.nib ... 
+2018-11-01 10:06:18 +0000  9291 bytes for ./Base.lproj/Main.storyboardc/Rpd-Ku-LPt-view-O7d-3k-0xR.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-HZh-7a-kec.nib ... 
+2018-11-01 10:06:18 +0000  998 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-HZh-7a-kec.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-teh-GA-mqt.nib ... 
+2018-11-01 10:06:18 +0000  1606 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-teh-GA-mqt.nib
+copying file ./Base.lproj/Main.storyboardc/vHj-lU-rHa-view-Xtv-jT-loT.nib ... 
+2018-11-01 10:06:18 +0000  4293 bytes for ./Base.lproj/Main.storyboardc/vHj-lU-rHa-view-Xtv-jT-loT.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-tIg-IQ-zMp.nib ... 
+2018-11-01 10:06:18 +0000  1647 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-tIg-IQ-zMp.nib
+copying file ./Base.lproj/Main.storyboardc/HZh-7a-kec-view-2Wx-nf-P9x.nib ... 
+2018-11-01 10:06:18 +0000  5331 bytes for ./Base.lproj/Main.storyboardc/HZh-7a-kec-view-2Wx-nf-P9x.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/Ebb-wK-q13-view-Bqn-U1-dU2.nib ... 
+2018-11-01 10:06:18 +0000  5091 bytes for ./Base.lproj/Main.storyboardc/Ebb-wK-q13-view-Bqn-U1-dU2.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-Ebb-wK-q13.nib ... 
+2018-11-01 10:06:18 +0000  1136 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Ebb-wK-q13.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-11-01 10:06:18 +0000  795 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/Main.storyboardc/UITableViewController-ng6-Kd-jUf.nib ... 
+2018-11-01 10:06:18 +0000  996 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-ng6-Kd-jUf.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-11-01 10:06:18 +0000  3450 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-11-01 10:06:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-11-01 10:06:18 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-11-01 10:06:18 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-11-01 10:06:18 +0000  copying file ./Assets.car ... 
+2018-11-01 10:06:18 +0000  2668344 bytes for ./Assets.car
+2018-11-01 10:06:18 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+21342 bytes for ./AppIcon76x76@2x~ipad.png
+2018-11-01 10:06:18 +0000  copying file ./ru.lproj/Main.strings ... 
+2018-11-01 10:06:18 +0000  5470 bytes for ./ru.lproj/Main.strings
+2018-11-01 10:06:18 +0000  copying file ./ru.lproj/Localizable.strings ... 
+2018-11-01 10:06:18 +0000  1453 bytes for ./ru.lproj/Localizable.strings
+2018-11-01 10:06:18 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-11-01 10:06:18 +0000  463984 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-11-01 10:06:18 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-11-01 10:06:18 +0000  676704 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-11-01 10:06:18 +0000  98312976 bytes for ./Frameworks/libswiftCore.dylib
+2018-11-01 10:06:18 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-11-01 10:06:18 +0000  2342512 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-11-01 10:06:18 +0000  1987552 bytes for ./Frameworks/libswiftUIKit.dylib
+2018-11-01 10:06:18 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-11-01 10:06:18 +0000  722032 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+2018-11-01 10:06:18 +0000  992624 bytes for ./Frameworks/libswiftCoreData.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-11-01 10:06:18 +0000  4229072 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2018-11-01 10:06:18 +0000  874304 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+398000 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-11-01 10:06:18 +0000  1091888 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+468000 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-11-01 10:06:18 +0000  42507584 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-11-01 10:06:18 +0000  /usr/bin/ditto exited with 0
+2018-11-01 10:06:18 +0000  copying file ./embedded.mobileprovision ... 
+7856 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1288 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2018-11-01 10:06:18 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb5e1764a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fdb726075e0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCore.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb5fcaf830 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fdb73ec82c0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb5e0e3a80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fdb5feebf00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb5dc0ded0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fdb5d884960:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb7682f2d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fdb724b7b00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb73f29810 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fdb5e1b5a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb76043c20 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fdb73ec6a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb5fc77bc0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fdb5e17d880:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb61011fa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fdb7232b560:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftMetal.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb6049e9d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fdb5fff4c00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb603c6490 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fdb5f8fba70:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb70d70710 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fdb60619850:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-11-01 10:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fdb606d6e30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fdb73ea2950:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftos.dylib'>'>
+2018-11-01 10:06:18 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-11-01 10:06:18 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-11-01 10:06:18 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-11-01 10:06:18 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-11-01 10:06:18 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-11-01 10:06:18 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-11-01 10:06:18 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-11-01 10:06:18 +0000  Running /usr/bin/ditto '-V' '/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/BCSymbolMaps/49A8AAE1-266C-3E2A-A0F7-BF291321623D.bcsymbolmap' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/BCSymbolMaps/49A8AAE1-266C-3E2A-A0F7-BF291321623D.bcsymbolmap'
+2018-11-01 10:06:18 +0000  >>> Copying /Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/BCSymbolMaps/49A8AAE1-266C-3E2A-A0F7-BF291321623D.bcsymbolmap 
+2018-11-01 10:06:18 +0000  copying file ./49A8AAE1-266C-3E2A-A0F7-BF291321623D.bcsymbolmap ... 
+2018-11-01 10:06:18 +0000  293895 bytes for ./49A8AAE1-266C-3E2A-A0F7-BF291321623D.bcsymbolmap
+2018-11-01 10:06:18 +0000  /usr/bin/ditto exited with 0
+2018-11-01 10:06:18 +0000  Processing step: IDEDistributionSymbolsStep
+2018-11-01 10:06:18 +0000  Excluding symbols for libswiftCore.dylib
+2018-11-01 10:06:18 +0000  Excluding symbols for libswiftCoreData.dylib
+2018-11-01 10:06:18 +0000  Excluding symbols for libswiftCoreFoundation.dylib
+2018-11-01 10:06:18 +0000  Excluding symbols for libswiftCoreGraphics.dylib
+2018-11-01 10:06:18 +0000  Excluding symbols for libswiftCoreImage.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftDarwin.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftDispatch.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftFoundation.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftMetal.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftObjectiveC.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftQuartzCore.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftUIKit.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for libswiftos.dylib
+2018-11-01 10:06:19 +0000  Excluding symbols for Tasks.app
+2018-11-01 10:06:19 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-11-01 10:06:19 +0000  Running /usr/bin/ditto '-V' '/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/SwiftSupport' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/SwiftSupport'
+2018-11-01 10:06:19 +0000  >>> Copying /Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/SwiftSupport 
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-11-01 10:06:19 +0000  466054 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-11-01 10:06:19 +0000  783684 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2018-11-01 10:06:19 +0000  144134670 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-11-01 10:06:19 +0000  3102532 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-11-01 10:06:19 +0000  2648637 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-11-01 10:06:19 +0000  831596 bytes for ./iphoneos/libswiftMetal.dylib
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftCoreData.dylib ... 
+2018-11-01 10:06:19 +0000  1172624 bytes for ./iphoneos/libswiftCoreData.dylib
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-11-01 10:06:19 +0000  5700515 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2018-11-01 10:06:19 +0000  1091870 bytes for ./iphoneos/libswiftos.dylib
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-11-01 10:06:19 +0000  385026 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-11-01 10:06:19 +0000  1401345 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-11-01 10:06:19 +0000  517767 bytes for ./iphoneos/libswiftQuartzCore.dylib
+2018-11-01 10:06:19 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-11-01 10:06:19 +0000  60083610 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-11-01 10:06:19 +0000  /usr/bin/ditto exited with 0
+2018-11-01 10:06:19 +0000  Processing step: IDEDistributionAppThinningStep
+2018-11-01 10:06:19 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-11-01 10:06:19 +0000  Processing step: IDEDistributionArchThinningStep
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCore.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreData.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreData.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftCoreData.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDarwin.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDispatch.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftFoundation.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftMetal.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftUIKit.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftos.dylib'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2018-11-01 10:06:19 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2018-11-01 10:06:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Tasks' '-verify_arch' 'arm64e'
+2018-11-01 10:06:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2018-11-01 10:06:19 +0000  Skipping architecture thinning for item "Tasks" because arch "arm64e" wasn't found
+2018-11-01 10:06:19 +0000  Processing step: IDEDistributionODRStep
+2018-11-01 10:06:19 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb5e1764a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fdb726075e0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCore.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb5fcaf830 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fdb73ec82c0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb5e0e3a80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fdb5feebf00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb5dc0ded0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fdb5d884960:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb7682f2d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fdb724b7b00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb73f29810 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fdb5e1b5a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb76043c20 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fdb73ec6a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb5fc77bc0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fdb5e17d880:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb61011fa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fdb7232b560:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftMetal.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb6049e9d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fdb5fff4c00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb603c6490 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fdb5f8fba70:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb70d70710 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fdb60619850:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-11-01 10:06:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fdb606d6e30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fdb73ea2950:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftos.dylib'>'>
+2018-11-01 10:06:19 +0000  Running /usr/bin/xattr '-crs' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app'
+2018-11-01 10:06:20 +0000  /usr/bin/xattr exited with 0
+2018-11-01 10:06:20 +0000  Processing step: IDEDistributionCodesignStep
+2018-11-01 10:06:20 +0000  Entitlements for <IDEDistributionItem: 0x7fdb5e1764a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fdb726075e0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-11-01 10:06:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb5e1764a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fdb726075e0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsrJasog
+2018-11-01 10:06:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsrJasog' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCore.dylib'
+2018-11-01 10:06:20 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-11-01 10:06:20 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-11-01 10:06:20 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:20 +0000  Entitlements for <IDEDistributionItem: 0x7fdb5fcaf830 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fdb73ec82c0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2018-11-01 10:06:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb5fcaf830 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fdb73ec82c0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsr6g7nu
+2018-11-01 10:06:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsr6g7nu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreData.dylib'
+2018-11-01 10:06:20 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2018-11-01 10:06:21 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:21 +0000  Entitlements for <IDEDistributionItem: 0x7fdb5e0e3a80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fdb5feebf00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-11-01 10:06:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb5e0e3a80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fdb5feebf00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsczx0U9
+2018-11-01 10:06:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsczx0U9' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-11-01 10:06:21 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:21 +0000  Entitlements for <IDEDistributionItem: 0x7fdb5dc0ded0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fdb5d884960:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-11-01 10:06:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb5dc0ded0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fdb5d884960:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsDxJhtZ
+2018-11-01 10:06:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsDxJhtZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-11-01 10:06:21 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:21 +0000  Entitlements for <IDEDistributionItem: 0x7fdb7682f2d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fdb724b7b00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-11-01 10:06:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb7682f2d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fdb724b7b00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsEDNnCH
+2018-11-01 10:06:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsEDNnCH' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib'
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-11-01 10:06:21 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:21 +0000  Entitlements for <IDEDistributionItem: 0x7fdb73f29810 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fdb5e1b5a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-11-01 10:06:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb73f29810 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fdb5e1b5a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsUfZTeJ
+2018-11-01 10:06:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsUfZTeJ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDarwin.dylib'
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-11-01 10:06:21 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:21 +0000  Entitlements for <IDEDistributionItem: 0x7fdb76043c20 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fdb73ec6a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-11-01 10:06:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb76043c20 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fdb73ec6a20:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsEJSsat
+2018-11-01 10:06:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsEJSsat' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDispatch.dylib'
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-11-01 10:06:21 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:21 +0000  Entitlements for <IDEDistributionItem: 0x7fdb5fc77bc0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fdb5e17d880:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-11-01 10:06:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb5fc77bc0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fdb5e17d880:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsBDr5gm
+2018-11-01 10:06:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsBDr5gm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftFoundation.dylib'
+2018-11-01 10:06:21 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-11-01 10:06:22 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-11-01 10:06:22 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:22 +0000  Entitlements for <IDEDistributionItem: 0x7fdb61011fa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fdb7232b560:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-11-01 10:06:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb61011fa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fdb7232b560:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementstxBUhE
+2018-11-01 10:06:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementstxBUhE' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftMetal.dylib'
+2018-11-01 10:06:22 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-11-01 10:06:22 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-11-01 10:06:22 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:22 +0000  Entitlements for <IDEDistributionItem: 0x7fdb6049e9d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fdb5fff4c00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-11-01 10:06:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb6049e9d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fdb5fff4c00:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementso7ZwRW
+2018-11-01 10:06:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementso7ZwRW' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib'
+2018-11-01 10:06:22 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-11-01 10:06:22 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-11-01 10:06:22 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:22 +0000  Entitlements for <IDEDistributionItem: 0x7fdb603c6490 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fdb5f8fba70:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-11-01 10:06:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb603c6490 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fdb5f8fba70:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementspXed8S
+2018-11-01 10:06:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementspXed8S' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib'
+2018-11-01 10:06:22 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-11-01 10:06:23 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-11-01 10:06:23 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:23 +0000  Entitlements for <IDEDistributionItem: 0x7fdb70d70710 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fdb60619850:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-11-01 10:06:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb70d70710 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fdb60619850:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsR519uQ
+2018-11-01 10:06:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsR519uQ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftUIKit.dylib'
+2018-11-01 10:06:23 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-11-01 10:06:23 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-11-01 10:06:23 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:23 +0000  Entitlements for <IDEDistributionItem: 0x7fdb606d6e30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fdb73ea2950:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-11-01 10:06:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb606d6e30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fdb73ea2950:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsscq08b
+2018-11-01 10:06:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsscq08b' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftos.dylib'
+2018-11-01 10:06:23 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-11-01 10:06:23 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-11-01 10:06:23 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:23 +0000  Entitlements for <IDEDistributionItem: 0x7fdb606b4a50 'Yaroslav-Abaturov.Tasks' '<DVTFilePath:0x7fdb6034f8c0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app'>'>: {
+    "application-identifier" = "54L37Y4QC4.Yaroslav-Abaturov.Tasks";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 54L37Y4QC4;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "54L37Y4QC4.Yaroslav-Abaturov.Tasks"
+    );
+}
+2018-11-01 10:06:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7fdb606b4a50 'Yaroslav-Abaturov.Tasks' '<DVTFilePath:0x7fdb6034f8c0:'/Users/yaroslavabaturov/Library/Developer/Xcode/Archives/2018-11-01/Tasks 01-11-2018, 13.01.xcarchive/Products/Applications/Tasks.app'>'> to: /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsfcy651
+2018-11-01 10:06:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '16BB79BEE8D1BCCB31C2F590BF9E31C24E5195EE' '--entitlements' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/entitlementsfcy651' '--preserve-metadata=identifier,flags,runtime' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app'
+2018-11-01 10:06:24 +0000  /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root/Payload/Tasks.app: signed app bundle with Mach-O thin (arm64) [Yaroslav-Abaturov.Tasks]
+2018-11-01 10:06:24 +0000  /usr/bin/codesign exited with 0
+2018-11-01 10:06:24 +0000  Processing step: IDEDistributionZipODRItemStep
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-11-01 10:06:24 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-11-01 10:06:24 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root' '/var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Packages/Tasks.ipa'
+2018-11-01 10:06:24 +0000  >>> Copying /var/folders/vc/3t028d0s1s12vhdfgn8cw0sm0000gn/T/XcodeDistPipeline.Fq4/Root 
+2018-11-01 10:06:24 +0000  copying file ./BCSymbolMaps/49A8AAE1-266C-3E2A-A0F7-BF291321623D.bcsymbolmap ... 
+2018-11-01 10:06:24 +0000  293895 bytes for ./BCSymbolMaps/49A8AAE1-266C-3E2A-A0F7-BF291321623D.bcsymbolmap
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/_CodeSignature/CodeResources ... 
+2018-11-01 10:06:24 +0000  14468 bytes for ./Payload/Tasks.app/_CodeSignature/CodeResources
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Tasks ... 
+2018-11-01 10:06:24 +0000  2707520 bytes for ./Payload/Tasks.app/Tasks
+copying file ./Payload/Tasks.app/AppIcon60x60@2x.png ... 
+2018-11-01 10:06:24 +0000  15580 bytes for ./Payload/Tasks.app/AppIcon60x60@2x.png
+copying file ./Payload/Tasks.app/fr-CA.lproj/Main.strings ... 
+5138 bytes for ./Payload/Tasks.app/fr-CA.lproj/Main.strings
+copying file ./Payload/Tasks.app/Tasks.momd/Tasks.omo ... 
+2018-11-01 10:06:24 +0000  6848 bytes for ./Payload/Tasks.app/Tasks.momd/Tasks.omo
+copying file ./Payload/Tasks.app/Tasks.momd/VersionInfo.plist ... 
+2018-11-01 10:06:24 +0000  235 bytes for ./Payload/Tasks.app/Tasks.momd/VersionInfo.plist
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Tasks.momd/Tasks.mom ... 
+2018-11-01 10:06:24 +0000  3738 bytes for ./Payload/Tasks.app/Tasks.momd/Tasks.mom
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/ng6-Kd-jUf-view-x5V-t5-4Cl.nib ... 
+2018-11-01 10:06:24 +0000  6721 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/ng6-Kd-jUf-view-x5V-t5-4Cl.nib
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITabBarController-CrO-jg-ebP.nib ... 
+2018-11-01 10:06:24 +0000  5192 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITabBarController-CrO-jg-ebP.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/7aN-h4-6sd-view-DWK-e3-s6k.nib ... 
+2018-11-01 10:06:24 +0000  4484 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/7aN-h4-6sd-view-DWK-e3-s6k.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/tIg-IQ-zMp-view-SaZ-F0-92v.nib ... 
+2018-11-01 10:06:24 +0000  17814 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/tIg-IQ-zMp-view-SaZ-F0-92v.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/hB0-yr-SQF-view-A8P-Vq-NWh.nib ... 
+2018-11-01 10:06:24 +0000  7389 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/hB0-yr-SQF-view-A8P-Vq-NWh.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/teh-GA-mqt-view-NhW-iB-3uO.nib ... 
+2018-11-01 10:06:24 +0000  5860 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/teh-GA-mqt-view-NhW-iB-3uO.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UIViewController-7aN-h4-6sd.nib ... 
+2018-11-01 10:06:24 +0000  998 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UIViewController-7aN-h4-6sd.nib
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/4cw-pD-ASe-view-b2T-og-VrR.nib ... 
+2018-11-01 10:06:24 +0000  7501 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/4cw-pD-ASe-view-b2T-og-VrR.nib
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UICollectionViewController-vHj-lU-rHa.nib ... 
+2018-11-01 10:06:24 +0000  1841 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UICollectionViewController-vHj-lU-rHa.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/Rpd-Ku-LPt-view-O7d-3k-0xR.nib ... 
+2018-11-01 10:06:24 +0000  9291 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/Rpd-Ku-LPt-view-O7d-3k-0xR.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-HZh-7a-kec.nib ... 
+2018-11-01 10:06:24 +0000  998 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-HZh-7a-kec.nib
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-teh-GA-mqt.nib ... 
+2018-11-01 10:06:24 +0000  1606 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-teh-GA-mqt.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/vHj-lU-rHa-view-Xtv-jT-loT.nib ... 
+2018-11-01 10:06:24 +0000  4293 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/vHj-lU-rHa-view-Xtv-jT-loT.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-tIg-IQ-zMp.nib ... 
+2018-11-01 10:06:24 +0000  1647 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-tIg-IQ-zMp.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/HZh-7a-kec-view-2Wx-nf-P9x.nib ... 
+2018-11-01 10:06:24 +0000  5331 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/HZh-7a-kec-view-2Wx-nf-P9x.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/Ebb-wK-q13-view-Bqn-U1-dU2.nib ... 
+2018-11-01 10:06:24 +0000  5091 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/Ebb-wK-q13-view-Bqn-U1-dU2.nib
+copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UIViewController-Ebb-wK-q13.nib ... 
+2018-11-01 10:06:24 +0000  1136 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UIViewController-Ebb-wK-q13.nib
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/Info.plist ... 
+795 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/Info.plist
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-ng6-Kd-jUf.nib ... 
+2018-11-01 10:06:24 +0000  996 bytes for ./Payload/Tasks.app/Base.lproj/Main.storyboardc/UITableViewController-ng6-Kd-jUf.nib
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-11-01 10:06:24 +0000  3450 bytes for ./Payload/Tasks.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Tasks.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-11-01 10:06:24 +0000  832 bytes for ./Payload/Tasks.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Tasks.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-11-01 10:06:24 +0000  258 bytes for ./Payload/Tasks.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Assets.car ... 
+2018-11-01 10:06:24 +0000  2668344 bytes for ./Payload/Tasks.app/Assets.car
+copying file ./Payload/Tasks.app/AppIcon76x76@2x~ipad.png ... 
+2018-11-01 10:06:24 +0000  21342 bytes for ./Payload/Tasks.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Tasks.app/ru.lproj/Main.strings ... 
+5470 bytes for ./Payload/Tasks.app/ru.lproj/Main.strings
+copying file ./Payload/Tasks.app/ru.lproj/Localizable.strings ... 
+1453 bytes for ./Payload/Tasks.app/ru.lproj/Localizable.strings
+2018-11-01 10:06:24 +0000  copying file ./Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-11-01 10:06:24 +0000  349792 bytes for ./Payload/Tasks.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-11-01 10:06:24 +0000  497056 bytes for ./Payload/Tasks.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftCore.dylib ... 
+2018-11-01 10:06:27 +0000  69853600 bytes for ./Payload/Tasks.app/Frameworks/libswiftCore.dylib
+2018-11-01 10:06:27 +0000  copying file ./Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-11-01 10:06:27 +0000  1737728 bytes for ./Payload/Tasks.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftUIKit.dylib ... 
+2018-11-01 10:06:27 +0000  1464944 bytes for ./Payload/Tasks.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftMetal.dylib ... 
+2018-11-01 10:06:27 +0000  542512 bytes for ./Payload/Tasks.app/Frameworks/libswiftMetal.dylib
+2018-11-01 10:06:27 +0000  copying file ./Payload/Tasks.app/Frameworks/libswiftCoreData.dylib ... 
+2018-11-01 10:06:27 +0000  747552 bytes for ./Payload/Tasks.app/Frameworks/libswiftCoreData.dylib
+2018-11-01 10:06:27 +0000  copying file ./Payload/Tasks.app/Frameworks/libswiftDispatch.dylib ... 
+2018-11-01 10:06:27 +0000  3099568 bytes for ./Payload/Tasks.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftos.dylib ... 
+2018-11-01 10:06:27 +0000  645456 bytes for ./Payload/Tasks.app/Frameworks/libswiftos.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-11-01 10:06:27 +0000  300128 bytes for ./Payload/Tasks.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftDarwin.dylib ... 
+2018-11-01 10:06:27 +0000  814448 bytes for ./Payload/Tasks.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-11-01 10:06:27 +0000  353824 bytes for ./Payload/Tasks.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/Tasks.app/Frameworks/libswiftFoundation.dylib ... 
+2018-11-01 10:06:28 +0000  31352384 bytes for ./Payload/Tasks.app/Frameworks/libswiftFoundation.dylib
+2018-11-01 10:06:28 +0000  copying file ./Payload/Tasks.app/embedded.mobileprovision ... 
+2018-11-01 10:06:28 +0000  7680 bytes for ./Payload/Tasks.app/embedded.mobileprovision
+copying file ./Payload/Tasks.app/Info.plist ... 
+2018-11-01 10:06:28 +0000  1288 bytes for ./Payload/Tasks.app/Info.plist
+copying file ./Payload/Tasks.app/PkgInfo ... 
+2018-11-01 10:06:28 +0000  8 bytes for ./Payload/Tasks.app/PkgInfo
+2018-11-01 10:06:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-11-01 10:06:28 +0000  405712 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+2018-11-01 10:06:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-11-01 10:06:28 +0000  618432 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+2018-11-01 10:06:28 +0000  copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-11-01 10:06:33 +0000  98254688 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+2018-11-01 10:06:33 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-11-01 10:06:33 +0000  2316992 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+2018-11-01 10:06:33 +0000  copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-11-01 10:06:34 +0000  1929280 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+2018-11-01 10:06:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-11-01 10:06:34 +0000  663760 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+2018-11-01 10:06:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreData.dylib ... 
+2018-11-01 10:06:34 +0000  950736 bytes for ./SwiftSupport/iphoneos/libswiftCoreData.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-11-01 10:06:34 +0000  4203552 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+2018-11-01 10:06:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-11-01 10:06:34 +0000  816016 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+2018-11-01 10:06:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-11-01 10:06:34 +0000  339712 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2018-11-01 10:06:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-11-01 10:06:34 +0000  1082752 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+2018-11-01 10:06:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-11-01 10:06:34 +0000  426096 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+2018-11-01 10:06:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-11-01 10:06:36 +0000  42465680 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-11-01 10:06:36 +0000  /usr/bin/ditto exited with 0
+2018-11-01 10:06:36 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2018-11-01 10:06:36 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2018-11-01 10:06:36 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-11-01 10:06:36 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

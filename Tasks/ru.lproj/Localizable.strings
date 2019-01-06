@@ -1,0 +1,40 @@
+/* 
+  Localizable_ru.strings
+  Tasks
+
+  Created by Yarr!zzeR on 31/10/2018.
+  Copyright © 2018 Yaroslav Abaturov. All rights reserved.
+*/
+
+"Edit Task title" = "Введите заголовок задачи";
+"Edit list title" = "Редактируйте заголовок списка";
+"Task title" = "Заголовок задачи";
+"Done" = "Готово";
+"Cancel" = "Отмена";
+"Add new list" = "Добавьте новый список";
+"Use lists to group tasks" = "Списки изспользуются для группировки задач";
+"List title" = "Заголовок списка";
+"List monitor" = "Монитор списка";
+"List is main" = "Список отмечен как 'Основной'";
+"To delete this list choose another one as 'main' first." = "Для удаления списка тебуется выбрать основным другой спискок.";
+"Trash is empty" = "Корзина пуста";
+"Trash" = "Корзина";
+"Delete" = "Удалить";
+"Put back" = "Вернуть";
+"Move to trash" = "Убрать в корзину";
+"main" = "предпочтительный";
+"Preferred" = "Главный";
+"White" = "Белый";
+"Green" = "Зеленый";
+"Yellow" = "Желтый";
+"Blue" = "Синий";
+"Red" = "Красный";
+"Magenta" = "Пурпурный";
+"Orange" = "Оранжевый";
+"Black" = "Черный";
+"Task title" = "Заголовок задачи";
+"Task importance" = "Важность";
+"Detail description" = "Описание";
+"Due date setup" ="Дата выполнения";
+"List" = "Список";
+
